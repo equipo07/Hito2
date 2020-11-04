@@ -1056,55 +1056,73 @@ a {
 .cid-sfcNrKDSO0 img {
   width: 100%;
 }
-.cid-sflkZ8QD2g {
-  padding-top: 0;
-  padding-bottom: 0;
-  background-color: #fafafa;
+.cid-sflKa8WRDs {
+  padding-top: 1rem;
+  padding-bottom: 0rem;
+  background-color: #ffe500;
 }
-.cid-sflkZ8QD2g .carousel {
-  width: 100%;
-}
-.cid-sflkZ8QD2g .carousel-inner {
-  display: flex;
-  align-content: center;
-  align-items: center;
-}
-.cid-sflkZ8QD2g .carousel-item img {
-  height: 100vh;
-  object-fit: cover;
-}
-.cid-sflkZ8QD2g .mbr-overlay {
+.cid-sflKa8WRDs .mbr-overlay {
   z-index: 1;
 }
-.cid-sflkZ8QD2g .carousel-caption {
+@media (min-width: 992px) {
+  .cid-sflKa8WRDs .carousel {
+    min-height: 700px;
+  }
+  .cid-sflKa8WRDs .carousel img {
+    max-height: 700px;
+    object-fit: contain;
+  }
+}
+@media (max-width: 991px) and (min-width: 768px) {
+  .cid-sflKa8WRDs .carousel {
+    min-height: 455px;
+  }
+  .cid-sflKa8WRDs .carousel img {
+    max-height: 455px;
+    object-fit: contain;
+  }
+}
+@media (max-width: 767px) {
+  .cid-sflKa8WRDs .carousel {
+    min-height: 385px;
+  }
+  .cid-sflKa8WRDs .carousel img {
+    max-height: 385px;
+    object-fit: contain;
+  }
+  .cid-sflKa8WRDs .container .carousel-control {
+    margin-bottom: 0;
+  }
+  .cid-sflKa8WRDs .content-slider-wrap {
+    width: 100% !important;
+  }
+}
+.cid-sflKa8WRDs .carousel,
+.cid-sflKa8WRDs .carousel-inner {
+  display: flex;
+  align-items: center;
+}
+.cid-sflKa8WRDs .item-wrapper {
+  width: 100%;
+}
+.cid-sflKa8WRDs .carousel-caption {
   bottom: 40px;
 }
-.cid-sflkZ8QD2g .mobi-mbri-arrow-next {
-  margin-left: 5px;
-}
-.cid-sflkZ8QD2g .mobi-mbri-arrow-prev {
-  margin-right: 5px;
-}
-.cid-sflkZ8QD2g .carousel-control:hover {
+.cid-sflKa8WRDs .carousel-control:hover {
   background: #1b1b1b;
   color: #fff;
   opacity: 1;
 }
-.cid-sflkZ8QD2g .item-wrapper {
-  width: 100%;
+.cid-sflKa8WRDs .mobi-mbri-arrow-next {
+  margin-left: 5px;
 }
-@media (max-width: 767px) {
-  .cid-sflkZ8QD2g .container .carousel-control {
-    margin-bottom: 0;
-  }
-  .cid-sflkZ8QD2g .content-slider-wrap {
-    width: 100% !important;
-  }
+.cid-sflKa8WRDs .mobi-mbri-arrow-prev {
+  margin-right: 5px;
 }
-.cid-sflkZ8QD2g .container .carousel-indicators {
+.cid-sflKa8WRDs .container .carousel-indicators {
   margin-bottom: 3px;
 }
-.cid-sflkZ8QD2g .carousel-control {
+.cid-sflKa8WRDs .carousel-control {
   top: 50%;
   width: 60px;
   height: 60px;
@@ -1115,26 +1133,26 @@ a {
   border-radius: 50%;
   transition: all 0.3s;
 }
-.cid-sflkZ8QD2g .carousel-control.carousel-control-prev {
+.cid-sflKa8WRDs .carousel-control.carousel-control-prev {
   left: 0;
   margin-left: 2.5rem;
 }
-.cid-sflkZ8QD2g .carousel-control.carousel-control-next {
+.cid-sflKa8WRDs .carousel-control.carousel-control-next {
   right: 0;
   margin-right: 2.5rem;
 }
 @media (max-width: 767px) {
-  .cid-sflkZ8QD2g .carousel-control {
+  .cid-sflKa8WRDs .carousel-control {
     top: auto;
     bottom: 1rem;
   }
 }
-.cid-sflkZ8QD2g .carousel-indicators {
+.cid-sflKa8WRDs .carousel-indicators {
   position: absolute;
   bottom: 0;
   margin-bottom: 1.5rem !important;
 }
-.cid-sflkZ8QD2g .carousel-indicators li {
+.cid-sflKa8WRDs .carousel-indicators li {
   max-width: 15px;
   height: 15px;
   width: 15px;
@@ -1146,15 +1164,15 @@ a {
   opacity: 0.5;
   transition: all 0.3s;
 }
-.cid-sflkZ8QD2g .carousel-indicators li.active,
-.cid-sflkZ8QD2g .carousel-indicators li:hover {
+.cid-sflKa8WRDs .carousel-indicators li.active,
+.cid-sflKa8WRDs .carousel-indicators li:hover {
   opacity: 0.9;
 }
-.cid-sflkZ8QD2g .carousel-indicators li::after,
-.cid-sflkZ8QD2g .carousel-indicators li::before {
+.cid-sflKa8WRDs .carousel-indicators li::after,
+.cid-sflKa8WRDs .carousel-indicators li::before {
   content: none;
 }
-.cid-sflkZ8QD2g .carousel-indicators.ie-fix {
+.cid-sflKa8WRDs .carousel-indicators.ie-fix {
   left: 50%;
   display: block;
   width: 60%;
@@ -1162,7 +1180,7 @@ a {
   text-align: center;
 }
 @media (max-width: 768px) {
-  .cid-sflkZ8QD2g .carousel-indicators {
+  .cid-sflKa8WRDs .carousel-indicators {
     display: none !important;
   }
 }
